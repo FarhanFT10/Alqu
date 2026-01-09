@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/firstItem"
+        android:title="@string/alarm"
+        android:icon="@drawable/alarm"/>
+    <item
+        android:id="@+id/secondtItem"
+        android:title="@string/stopwatch"
+        android:icon="@drawable/stopwatch"/>
+    <item
+        android:id="@+id/thirdItem"
+        android:title="@string/timer"
+        android:icon="@drawable/timer"/>
+    <item
+        android:id="@+id/fourthItem"
+        android:title="@string/reminder"
+        android:icon="@drawable/reminder"/>
+    <item
+        android:id="@+id/FifthItem"
+        android:title="@string/quotes"
+        android:icon="@drawable/quotes"/>
+    <group android:id="@+id/other">
+        <item
+            android:id="@+id/sixthItem"
+            android:title="@string/settings"
+            android:icon="@drawable/settings"/>
+        <item
+            android:id="@+id/seventhItem"
+            android:title="@string/help_amp_faq"
+            android:icon="@drawable/help"/>
+        <item
+            android:id="@+id/eighthItem"
+            android:title="@string/about_us"
+            android:icon="@drawable/aboutus"/>
+    </group>
+</menu>

@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ALQU" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ALQU.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ALQU.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ALQU.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="alquappearance">
+        <item name='android:textSize'>80dp</item>
+        <item name="android:fontFamily">@font/malaka</item>
+    </style>
+
+    <style name="menu_appearance">
+        <item name='android:fontFamily'>@font/rajdhanisemibold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="NavigationView"  parent="Base.Theme.AppCompat">
+        <item name="android:listDivider">@color/white</item>
+    </style>
+
+    <style name="Apptheme_BackgroundImageStyle">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+</resources>
